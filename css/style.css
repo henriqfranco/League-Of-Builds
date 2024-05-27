@@ -9,6 +9,9 @@
 body{
     font-family: 'Friz Quadrata Std', sans-serif;
     background-color: rgb(43, 60, 96);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -26,7 +29,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .imglogo{
@@ -66,4 +68,56 @@ header{
     background-color: rgb(43, 60, 96);
     border-radius: 5px;
     transition: 0.3s;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtpart{
+    padding: 10px;
+    text-align: center;
+    color: rgb(204, 158, 55);
+}
+
+.title{
+    text-shadow: 2px 2px 2px black;
+    font-size: 50px;
+}
+
+.txt{
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.imglol{
+    width: 100%;
+}
+
+.buildbutton{
+    text-decoration: none;
+    color: rgb(204, 158, 55);
+    padding: 5px;
+    border: 2px solid rgb(204, 158, 55);
+    transition: 0.3s;
+}
+
+.buildbutton:hover{
+    background-color: rgb(204, 158, 55);
+    color: black;
+    transition: 0.3s;
+}
+
+footer{
+    background-color: rgb(22, 31, 50);
+    color: white;
+    margin-top: auto;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
